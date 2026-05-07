@@ -1,0 +1,31 @@
+{
+  "name": "backend-ledger",
+  "version": "1.0.0",
+  "description": "Backend ledger service for users, accounts, and transactions.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"No automated tests are defined\" && exit 0"
+  },
+  "keywords": [
+    "ledger",
+    "banking",
+    "express",
+    "mongoose"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5",
+    "nodemailer": "^7.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
